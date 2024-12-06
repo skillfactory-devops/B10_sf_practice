@@ -73,8 +73,6 @@ Welcome to Ubuntu 14.04.6 LTS (GNU/Linux 3.13.0-170-generic x86_64)
 
 vagrant@vagrant-ubuntu-trusty-64:~$ ls -a
 .  ..  .bash_logout  .bashrc  .cache  mycode  .profile  .ssh
-vagrant@vagrant-ubuntu-trusty-64:~$ dpkg -l "
-> ^C
 vagrant@vagrant-ubuntu-trusty-64:~$ dpkg -l | grep django
 ii  python-django                           1.6.11-0ubuntu1.3                          all          High-level Python web development framework
 ```
