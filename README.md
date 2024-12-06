@@ -5,7 +5,7 @@
 touch mycode
 ```
 * [Установил Vagrant + Virtualbox](https://github.com/skillfactory-devops/b10_vagrant),
-* Cоздал Vagrantfile, при использовании которого будет создаваться ВМ под управлением Ubuntu 18.04,
+* Cоздал [Vagrantfile](https://github.com/skillfactory-devops/B10_sf_practice/blob/main/6/Vagrantfile), при использовании которого будет создаваться ВМ под управлением Ubuntu 18.04,
 * Дополнил Vagrantfile таким образом, чтобы на эту машину при ее создании установились python3- и python3-pip-пакеты, а также Python-библиотеки psycopg2 (для подключения к PostgreSQL СУБД) и Django (для работы с фронтендом),
 * Дополнить Vagrantfile командой копирования пустого файла на файловую систему созданной машины,
 * Протестировал Vagrant Box:
